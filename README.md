@@ -20,17 +20,17 @@ This project showcases team matches, gaming events, and esports content with an 
 
 
 ## 📂 Folder Structure
-game-addict-website/ /b
-│
-├─ index.html # Main HTML file
-├─ gaming.css # CSS styling
-├─ img/ # Images for demos, features, and footer
-│ ├─ box1.jpg
-│ ├─ box2.jpg
-│ ├─ box3.jpg
-│ ├─ main.jpg
-│ └─ footer.jpg
-└─ README.md # Project documentation
+``` game-addict-website/ 
+ │
+ ├─ index.html # Main HTML file
+ ├─ gaming.css # CSS styling
+ ├─ img/ # Images for demos, features, and footer
+ │ ├─ box1.jpg
+ │ ├─ box2.jpg
+ │ ├─ box3.jpg
+ │ ├─ main.jpg
+ │ └─ footer.jpg
+ └─ README.md # Project documentation
 ---
 
 ## ⚙️ Installation
