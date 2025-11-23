@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Addict</title>
+    <link rel="stylesheet" href="gaming.css">
+
+    <!-- Font Awesome 6 FIXED -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-xbox"></i></a>
+            <a href="#"><i class="fa-brands fa-twitch"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <div class="login-btn">
+            <a href="#"><i class="fa fa-user"></i> Login</a>
+        </div>
+    </div>
+
+    <!-- CUSTOM CSS LOGO -->
+    <div class="custom-logo">
+        <span class="line"></span>
+        <h1>GAME <br> ADDICT</h1>
+        <span class="line"></span>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Matches</a>
+        <a href="#">Members</a>
+        <a href="#">Gallery</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <input type="search" placeholder="Search...">
+    </nav>
+
+</header>
+
+<!-- HERO SECTION with Auto-Slider + Zoom -->
+<section class="hero">
+    <div class="hero-text">
+        <h2>CREATE AND MANAGE</h2>
+        <h1>TEAM MATCHES</h1>
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus placeat facere possimus.</p>
+        <a class="btn">READ MORE</a>
+    </div>
+</section>
+
+<!-- DEMO BOXES WITH ANIMATED LOOPS -->
+<section class="demos">
+    <h1>PRE-BUILT DEMOS</h1>
+
+    <div class="demo-grid">
+
+        <div class="demo-card sliding zoom" data-img1="img/box1.jpg" data-img2="img/box2.jpg" data-img3="img/box3.jpg">
+            <span>MAIN HOME</span>
+        </div>
+
+        <div class="demo-card sliding zoom" data-img1="img/box2.jpg" data-img2="img/box3.jpg" data-img3="img/box1.jpg">
+            <span>CLOUD GAME</span>
+        </div>
+
+        <div class="demo-card sliding zoom" data-img1="img/box3.jpg" data-img2="img/box1.jpg" data-img3="img/box2.jpg">
+            <span>ONLINE GAMING</span>
+        </div>
+
+    </div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section class="features">
+
+    <div class="features-text zoom">
+        <h3>THE BOLT</h3>
+        <h1>FIRST ESPORT THEME <br> ON THEMEFOREST</h1>
+        <a class="buy">BUY THEME</a>
+        <a class="read">READ MORE</a>
+    </div>
+
+    <!-- Auto Sliding Feature Image -->
+    <div class="features-img sliding zoom"
+        data-img1="img/main.jpg"
+        data-img2="img/box3.jpg"
+        data-img3="img/footer.jpg">
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer neon-border">
+
+    <div class="footer-box fade-up">
+        <h3>Address</h3>
+        <p><i class="fa fa-location-dot"></i> Robert Robertson, 1234 NW Bobcat Lane</p>
+        <p><i class="fa fa-phone"></i> (212) 456-7890</p>
+        <p><i class="fa fa-envelope"></i> support@company.com</p>
+    </div>
+
+    <div class="footer-box fade-up">
+        <h3>Newsletter</h3>
+        <input type="email" placeholder="Enter email">
+        <button>Subscribe</button>
+    </div>
+
+    <div class="footer-box fade-up">
+        <h3>About Us</h3>
+        <p>PC Gamer covers gaming news, reviews, esports, hardware, and more for over 20 years.</p>
+    </div>
+
+</footer>
+
+<script>
+window.onload = () => {
+    document.querySelector(".loading-screen").style.opacity = "0";
+    setTimeout(()=> document.querySelector(".loading-screen").style.display="none", 800);
+};
+</script>
+
+</body>
+</html>
