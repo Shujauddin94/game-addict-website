@@ -20,7 +20,7 @@ This project showcases team matches, gaming events, and esports content with an 
 
 
 ## 📂 Folder Structure
-game-addict-website/
+game-addict-website/ /b
 │
 ├─ index.html # Main HTML file
 ├─ gaming.css # CSS styling
